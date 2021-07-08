@@ -39,7 +39,7 @@ void LF_CC licenceRenewCallback(uint32_t status)
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     int status;
-    status = SetHostProductId("74a87f2e-1fdf-46e2-a205-4af3357f553b");
+    status = SetHostProductId("PASTE_PRODUCT_ID");
     if(status != LF_OK)
     {
         self.licenseStatusLabel.text = [NSString stringWithFormat:@"%d",status];
